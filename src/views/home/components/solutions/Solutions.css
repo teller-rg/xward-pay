@@ -1,0 +1,14 @@
+.solutions .title-primary {
+  margin-bottom: 24px;
+}
+.solutions .text-primary {
+  margin-bottom: 48px;
+}
+@media (max-width: 767px) {
+  .solutions .title-primary {
+    margin-bottom: 8px;
+  }
+  .solutions .text-primary {
+    margin-bottom: 24px;
+  }
+}
