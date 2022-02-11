@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  ButtonType,
-  Button,
-} from 'components/button/Button';
+import { ButtonType, Button } from 'components/button/Button';
 
 import AboutImage from 'assets/images/about.svg';
 import './About.css';

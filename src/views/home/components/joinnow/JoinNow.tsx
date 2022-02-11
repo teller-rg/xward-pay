@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  ButtonType,
-  Button,
-} from 'components/button/Button';
+import { ButtonType, Button } from 'components/button/Button';
 import { TextField } from 'components/textField/TextField';
 
 import JoinNowImage from 'assets/images/joinNow.svg';
