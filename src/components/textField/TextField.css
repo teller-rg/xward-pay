@@ -1,0 +1,14 @@
+.input-primary {
+  height: 20px;
+  width: 368px;
+  border-radius: 8px;
+  padding: 17px 16px;
+  border: 1px solid #b5b9c4;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #707685;
+}
