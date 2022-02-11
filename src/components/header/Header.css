@@ -1,0 +1,39 @@
+.header {
+  padding: 54px 7px;
+  background-color: #f8f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar {
+  width: 35px;
+  height: 2px;
+  background-color: #1b1232;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 2px;
+}
+
+.menu-icon-close .bar:first-child {
+  -webkit-transform: rotate(-45deg) translate(-4px, 6px);
+  transform: rotate(-45deg) translate(-4px, 6px);
+}
+
+.menu-icon-close .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon-close .bar:last-child {
+  -webkit-transform: rotate(45deg) translate(-5px, -8px);
+  transform: rotate(45deg) translate(-5px, -8px);
+}
+@media (min-width: 992px) {
+  .menu-icon {
+    display: none;
+  }
+}
