@@ -1,8 +1,8 @@
 import React from 'react';
 import {
   ButtonType,
-  PrimaryButton,
-} from '../../../../components/primaryButton/PrimaryButton';
+  Button,
+} from '../../../../components/button/Button';
 
 import AboutImage from '../../../../assets/images/about.svg';
 import './About.css';
@@ -20,7 +20,7 @@ export const About: React.FC = () => (
             Digital Avatar, and boost your business into a new dimension.
           </p>
           <label>See our documentation</label>
-          <PrimaryButton title="Coming soon" type={ButtonType.PRIMARY} />
+          <Button title="Coming soon" type={ButtonType.PRIMARY} />
         </div>
       </div>
     </div>

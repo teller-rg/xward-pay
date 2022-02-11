@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './PrimaryButton.css';
+import './Button.css';
 
 export enum ButtonType {
   PRIMARY,
@@ -10,7 +10,7 @@ interface PropTypes {
   title: string;
   type: ButtonType;
 }
-export const PrimaryButton: React.FC<PropTypes> = ({ title, type }) => (
+export const Button: React.FC<PropTypes> = ({ title, type }) => (
   <>
     <button
       className={`button 

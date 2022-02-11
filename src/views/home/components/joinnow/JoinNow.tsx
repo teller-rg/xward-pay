@@ -1,8 +1,8 @@
 import React from 'react';
 import {
   ButtonType,
-  PrimaryButton,
-} from '../../../../components/primaryButton/PrimaryButton';
+  Button,
+} from '../../../../components/button/Button';
 import { TextField } from '../../../../components/textField/TextField';
 
 import JoinNowImage from '../../../../assets/images/joinNow.svg';
@@ -20,7 +20,7 @@ export const JoinNow: React.FC = () => (
       </p>
       <div className="form-group">
         <TextField placeholder="Enter your email" />
-        <PrimaryButton title="Join now" type={ButtonType.GRADIENT} />
+        <Button title="Join now" type={ButtonType.GRADIENT} />
       </div>
       <div className="joinNow-background">
         <img src={JoinNowImage} alt="" />

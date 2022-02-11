@@ -1,8 +1,8 @@
 import React from 'react';
 import {
   ButtonType,
-  PrimaryButton,
-} from '../../../../components/primaryButton/PrimaryButton';
+  Button,
+} from '../../../../components/button/Button';
 
 import JoinNowImage from '../../../../assets/images/slogan.svg';
 import './Slogan.css';
@@ -19,7 +19,7 @@ export const Slogan: React.FC = () => (
           and Augment environments by embedding our financial connections right
           to the core of digital world.
         </p>
-        <PrimaryButton title="Learn More" type={ButtonType.PRIMARY} />
+        <Button title="Learn More" type={ButtonType.PRIMARY} />
       </div>
       <div className="slogan-background">
         <img src={JoinNowImage} alt="" />
