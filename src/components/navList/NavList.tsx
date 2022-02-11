@@ -13,22 +13,22 @@ export interface NavLinks {
   links: Links[];
 }
 export const NavList: React.FC<NavLinks> = ({ title, links }) => {
-  const [collapsed, setCollapsed] = useState(true);
+  const [isCollapsed, setCollapsed] = useState(true);
   return (
     <>
       <div className="navList">
         <h6
           className="title-tertiary"
-          onClick={() => setCollapsed(collapsed ? false : true)}
+          onClick={() => setCollapsed(!isCollapsed)}
         >
           {title}
           <img
             src={ChevronDownIcon}
             alt=""
-            className={collapsed ? '' : 'rotated'}
+            className={isCollapsed ? '' : 'rotated'}
           />
         </h6>
-        <ul className={collapsed ? '' : 'collapse-show'}>
+        <ul className={isCollapsed ? '' : 'collapse-show'}>
           {links.map((link, index) => {
             return (
               <li key={index}>
