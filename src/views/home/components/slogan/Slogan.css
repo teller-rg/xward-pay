@@ -1,0 +1,56 @@
+.slogan .title-primary {
+  margin-bottom: 40px;
+}
+.slogan .text-primary {
+  margin-bottom: 56px;
+}
+.slogan button {
+  padding: 16px 137px;
+}
+.slogan-content {
+  max-width: 915px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slogan-background {
+  height: 288px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #ecdaf8;
+  margin-top: 268px;
+  margin-bottom: 268px;
+  position: relative;
+}
+.slogan-background img {
+  max-width: 100%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -50%;
+  right: 50%;
+  transform: translateX(50%);
+}
+@media (max-width: 575px) {
+  .slogan-background {
+    height: 228px;
+    margin-top: 93px;
+    margin-bottom: 117px;
+  }
+  .slogan-background img {
+    width: 320px;
+    max-width: unset;
+    top: -20%;
+  }
+  .slogan .title-primary {
+    margin-top: 64px;
+    margin-bottom: 16px;
+  }
+  .slogan .text-primary {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  .slogan button {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+  }
+}
