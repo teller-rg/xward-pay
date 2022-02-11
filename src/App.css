@@ -1,38 +1,99 @@
-.App {
+.container {
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: auto;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.text-center {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title-primary {
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0em;
+  color: #1b1232;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title-secondary {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title-tertiary {
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+.text-primary {
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  color: #413e57;
+}
+.form-group {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.form-group * {
+  margin-left: 8px;
+  margin-right: 8px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 991px) {
+  .title-tertiary {
+    font-size: 14px;
+    line-height: 21px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width: 650px) {
+  .form-group {
+    flex-wrap: wrap;
   }
+  .form-group button {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .form-group input {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .title-primary {
+    font-size: 24px;
+    line-height: 33.6px;
+  }
+  .text-primary {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
 }
