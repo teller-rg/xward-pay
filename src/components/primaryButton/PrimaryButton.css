@@ -1,0 +1,25 @@
+.button {
+  height: 56px;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  border: unset;
+  color: #f8f9f9;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Lato;
+}
+.button-primary {
+  background-color: #105099;
+}
+.button-gradient {
+  background: linear-gradient(90deg, #ca40f0 0%, #3e80dc 100%);
+  padding: 16px 52px;
+}
+@media (max-width: 575px) {
+  .button {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+}

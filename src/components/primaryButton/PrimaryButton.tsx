@@ -1,3 +1,7 @@
+import React from 'react';
+
+import './PrimaryButton.css';
+
 export enum ButtonType {
   PRIMARY,
   GRADIENT,
@@ -9,9 +13,9 @@ interface PropTypes {
 export const PrimaryButton: React.FC<PropTypes> = ({ title, type }) => (
   <>
     <button
-      className={
-        type === ButtonType.PRIMARY ? 'button-primary' : 'button-gradient'
-      }
+      className={`button 
+        ${type === ButtonType.PRIMARY ? 'button-primary' : 'button-gradient'}
+      `}
     >
       {title}
     </button>
