@@ -1,7 +1,8 @@
-import { JoinNow } from './components/JoinNow';
-import { About } from './components/About';
-import { Slogan } from './components/Slogan';
-import { Solutions } from './components/Solutions';
+import React from 'react';
+import { JoinNow } from './components/joinnow/JoinNow';
+import { About } from './components/about/About';
+import { Slogan } from './components/slogan/Slogan';
+import { Solutions } from './components/solutions/Solutions';
 
 export const HomeView: React.FC = () => (
   <>
