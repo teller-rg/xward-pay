@@ -2,9 +2,9 @@ import React from 'react';
 import { NavLinks, NavList } from '../navList/NavList';
 import { Link } from 'react-router-dom';
 
-import FooterLogo from '../../assets/images/footer_logo.svg';
-import PlayStore from '../../assets/images/playStore.svg';
-import AppleStore from '../../assets/images/appleStore.svg';
+import FooterLogo from 'assets/images/footer_logo.svg';
+import PlayStore from 'assets/images/playStore.svg';
+import AppleStore from 'assets/images/appleStore.svg';
 import './Footer.css';
 
 const items: NavLinks[] = [

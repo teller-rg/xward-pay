@@ -2,9 +2,9 @@ import React from 'react';
 import {
   ButtonType,
   Button,
-} from '../../../../components/button/Button';
+} from 'components/button/Button';
 
-import JoinNowImage from '../../../../assets/images/slogan.svg';
+import JoinNowImage from 'assets/images/slogan.svg';
 import './Slogan.css';
 
 export const Slogan: React.FC = () => (

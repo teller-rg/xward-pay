@@ -2,9 +2,9 @@ import React from 'react';
 import {
   ButtonType,
   Button,
-} from '../../../../components/button/Button';
+} from 'components/button/Button';
 
-import AboutImage from '../../../../assets/images/about.svg';
+import AboutImage from 'assets/images/about.svg';
 import './About.css';
 
 export const About: React.FC = () => (

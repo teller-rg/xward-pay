@@ -2,10 +2,10 @@ import React from 'react';
 import {
   ButtonType,
   Button,
-} from '../../../../components/button/Button';
-import { TextField } from '../../../../components/textField/TextField';
+} from 'components/button/Button';
+import { TextField } from 'components/textField/TextField';
 
-import JoinNowImage from '../../../../assets/images/joinNow.svg';
+import JoinNowImage from 'assets/images/joinNow.svg';
 import './JoinNow.css';
 
 export const JoinNow: React.FC = () => (

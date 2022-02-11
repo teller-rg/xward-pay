@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import ChevronDownIcon from '../../assets/icons/chevron-down.svg';
+import ChevronDownIcon from 'assets/icons/chevron-down.svg';
 import './NavList.css';
 
 export interface Links {

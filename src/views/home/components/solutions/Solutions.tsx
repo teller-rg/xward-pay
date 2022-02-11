@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardInfo } from '../../../../components/card/Card';
+import { Card, CardInfo } from 'components/card/Card';
 
 import './Solutions.css';
 
